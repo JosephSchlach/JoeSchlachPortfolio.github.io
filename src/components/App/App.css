@@ -1,49 +1,138 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px;
+body{
+    margin: 0;
 }
 
-.alert {
-    background-color: #ff4545;
-    margin: 50px;
+.hero{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url(https://josephschlach.github.io/trees.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-form {
-    background-color: #dbd5d5;
-    width: 30%;
-    height: 250px;
-    margin: 20px auto;
-    padding: 25px;
-    border-radius: 2px;
+.hero h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #ededed;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
-input {
-    margin: 5px;
-    margin-bottom: 10px;
+.hero h4{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ededed;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
 
-.log-in, .log-out, .register {
-  background-color: #00acb0;
-  border-radius: 4px;
-  color: #f8f8f8;
-  min-height: 50px;
-  min-width: 100px;
-  outline:0;
-  cursor: pointer;
+.center{
+    margin: auto;
+    width: 50%;
+    border: none;
+    padding: 10px;
 }
 
-.log-in:hover, .log-out:hover, .register:hover {
-  background-color: #008183;
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 6px;
+    margin-bottom: auto;
+    color: #858585;
 }
 
-/* This line makes the "Register" and "Login" buttons look like links */
-.link-button {
-    background:none;
-    color:inherit;
-    border:none;
-    padding:0;
-    font: inherit;
-    outline:0;
-    border-bottom:1px solid #444; 
-    cursor: pointer;
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #404244;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #383838;
+}
+
+
+select {
+    width: 130px;
+    height:26px;
+    padding: 12px 20px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+.OwnerPet{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cccccc;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.PetOwner{
+    display: inline-block;
+    background-color: #ffffff;
+    height:40px;
+    width: 33.3%;
+    border: .1px solid #858585;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 2.5px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.PetOwner:hover {
+    background-color: #c517e7;
+    box-shadow: none;
+    color:white;
+}
+h2:hover{
+    color:white;
+}
+
+.forms {
+    align-items: center;
+    margin-top:25px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 130px;
+}
+
+.mainButton {
+    margin-top:10px;
+    margin-bottom: 50px;
+    height: 30px;
+    width: 130px;
+    color: #ffffff;
+    background-color: #0B486B;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 0px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    box-shadow: 0 2.5px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mainButton:hover {
+    background-color: #16a085;
+    box-shadow: none;
 }
