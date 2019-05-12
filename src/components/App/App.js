@@ -8,6 +8,7 @@ import {
 import Resume from '../Resume/Resume';
 import Develop from '../Develop/Develop';
 import DesignWork from '../DesignWork/DesignWork';
+import Mudd from '../Mudd/Mudd';
 import './App.css';
 
 class App extends Component {
@@ -22,8 +23,10 @@ class App extends Component {
         <body>
           <selection class="hero">
             <div class="hero-inner">
+            <div className="heroCard">
               <h1>JOSEPH SCHLACHTENHAUFEN</h1>
               <h4 className="h4Hero">715.456.4923 - JDSchlach@gmail.com</h4>
+              </div>
             </div>
           </selection>
           <Switch>
@@ -42,6 +45,11 @@ class App extends Component {
               exact
               path="/design"
               component={DesignWork}
+            />
+              <Route
+              exact
+              path="/mudd"
+              component={Mudd}
             />
           </Switch>
           </body>

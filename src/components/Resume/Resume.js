@@ -38,38 +38,97 @@ render() {
       </div>
           <main>
             <div class="center">
-              <h2>Spyhouse Coffee Roasters</h2>
-                <h4 className="h4Body">February 2018 to Present - Minneapolis, MN</h4>
+              <h2>PRIME DIGITAL ACADEMY</h2>
+                <h4 className="h4Body">January 2019 - Present | Minneapolis, MN</h4>
+                  <ul>
+                  <li>- Studying HTML, CSS, JavaScript, JQuery, React, SQL</li>
+                  <li>- Designing applications and user interfaces</li>
+                  <li>- Developing a solo application with a local non-profit in mind</li>
+                  <li>- Once graduated I will have produced an application for local business</li>
+                  <li>- Training soft skills like public speaking and collaboration</li>
+                  </ul>
+              <h2>SPYHOUSE COFFEE ROASTERS</h2>
+                <h4 className="h4Body">February 2018 - March 2019 | Minneapolis, MN</h4>
+                  <ul>
+                    <li>- Establlished relationships with customers providing quality cusomer service</li>
+                    <li>- Improved team morale during leadership transitions</li>
+                    <li>- Took part in diversity training</li>
+                    <li>- Flexible with adapting to working in multiple locations and times of day</li>
+                  </ul>
+              <h2>Dunn Brothers Coffee</h2>
+                <h4 className="h4Body">July 2016 to July 2017 | Minneapolis, MN</h4>
+                  <ul>
+                    <li>- Learned the basics of how to run a coffee shop</li>
+                    <li>- Strong emphasis on communication</li>
+                    <li>- Problem solving, both customer facing and with staff</li>
+                    <li>- Prioritized customer service and positivity</li>
+                  </ul>
               <h2>Tangerine Promotions</h2>
-                <h4 className="h4Body">November 2012 to May 2016 - Northbrook, IL</h4>
-              <h2>Mudd Advertising</h2>
-                <h4 className="h4Body">Summer 2011 Internship - Cedar Falls, IA</h4>
+                <h4 className="h4Body">November 2012 to May 2016 | Northbrook, IL</h4>
+                  <ul>
+                    <li>- Contributed graphic design work to campaigns for Diageo Liquor</li>
+                    <li>- Worked in a fast pace environment and adapted to changes</li>
+                    <li>- Developed design skills both software related as well as workflow related</li>
+                    <li>- Gained a wide array of soft skills important for contributing to teams</li>
+                  </ul>
+                  <br />
               <h2>EDUCATION</h2>
+              <div className='eduDiv'>
+                <div className="eduCard">
                 <h4 className="h4Body">Prime</h4>
                   <p>
                     Minneapolis, MN
+                    <br/>
                     1/19 - Present
                     <br/>
                     Full Stack Development
                   </p>
+                  </div>
+                  <div className="eduCard">
                 <h4 className="h4Body">Wartburg College</h4>
                   <p>
                     Waverly, IA
-                    08 - 12
+                    <br/>
+                    2008 - 2012
                     <br/>
                     Communications
                   </p>
-            <h2>SKILL SET</h2>
-              <ul>
-                <li>3.5 years professional graphic design experience (Photoshop,Illustrator,Indesign)</li>
-                <li>I keep consistant and accurate files</li>
-                <li>Experience with digital SLR cameras and photo editing</li>
-                <li>I adapt quickly to change in work flow</li>
-                <li>Strong written and verbal communicator</li>
-                <li>I'm detail oriented</li>
-                <li>Comfortable in a fast paced work environment</li>
-                <li>I'm reliable - Employed remotely for a year</li>
-              </ul>
+                  </div>
+                  </div>
+                  <br />
+            <h2>SKILLS</h2>
+              <div className='skillsDiv'>
+                <div className="skillCard">
+                  <h4 className="h4Body">Design</h4>
+                    <ul>
+                      <li>- Adobe Suite</li>
+                      <li>- Print and Digital</li>
+                      <li>- Usability</li>
+                      <li>- Wire Framing</li>
+                      <li>- 3D Modeling</li>
+                    </ul>
+                </div>
+                <div className="skillCard">
+                  <h4 className="h4Body">Development</h4>
+                    <ul>
+                      <li>- HTML</li>
+                      <li>- CSS</li>
+                      <li>- React</li>
+                      <li>- jQuery</li>
+                      <li>- JavaScript</li>
+                    </ul>
+                </div>
+                <div className="skillCard">
+                  <h4 className="h4Body">Professional</h4>
+                    <ul>
+                      <li>- Communication</li>
+                      <li>- Critical Thinking</li>
+                      <li>- Teamwork</li>
+                      <li>- Leadership</li>
+                      <li>- Empathy</li>
+                    </ul>
+                </div>
+                </div>
           </div>
         </main>
       </div>

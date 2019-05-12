@@ -1,0 +1,32 @@
+.skillsDiv{
+    height:150px;
+    width:100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.skillCard{
+    display: inline-block;
+    height:150px;
+    width: 175px;
+    vertical-align: top;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.eduDiv{
+    height:100px;
+    width:100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.eduCard{
+    display: inline-block;
+    height:100px;
+    width: 200px;
+    vertical-align: top;
+    align-content: flex-start;
+    align-items: flex-start;
+    content: flex-start;
+}
