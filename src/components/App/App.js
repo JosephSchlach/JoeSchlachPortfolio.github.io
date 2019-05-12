@@ -23,7 +23,7 @@ class App extends Component {
           <selection class="hero">
             <div class="hero-inner">
               <h1>JOSEPH SCHLACHTENHAUFEN</h1>
-              <h4>715.456.4923 - JDSchlach@gmail.com</h4>
+              <h4 className="h4Hero">715.456.4923 - JDSchlach@gmail.com</h4>
             </div>
           </selection>
           <Switch>
